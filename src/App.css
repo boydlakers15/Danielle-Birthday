@@ -182,3 +182,110 @@ body {
   object-fit: contain; /* Ensure the image fits within its container */
 }
 
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .birthdayCard {
+    width: 100%; /* Adjust card width for smaller screens */
+    height: auto; /* Let height be flexible */
+  }
+
+  .cardFront,
+  .cardInside {
+    padding: 20px; /* Adjust padding inside card for smaller screens */
+    background-color: #ffffffbe;
+    height: auto;
+    max-width:  90vw; /* Limit card width to fit screen on small devices */
+  }
+
+  .imageContainer {
+    height: auto; /* Let image container height be flexible */
+  }
+
+  .balloons {
+    top: 186px; /* Adjust balloon position for smaller screens */
+    right: 30px; /* Adjust balloon position for smaller screens */
+    padding: 1px; /* Adjust spacing between balloons for smaller screens */
+  }
+
+   /* Adjust the size and layout of balloons */
+   .balloonOne,
+   .balloonTwo,
+   .balloonThree,
+   .balloonFour {
+     width: 40px; /* Decrease balloon width */
+     height: 40px; /* Decrease balloon height */
+     border-radius: 50%;
+     margin-bottom: 10px; /* Adjust spacing between balloons */
+     position: relative;
+   }
+ 
+   /* Adjust the balloon positions */
+   .balloonOne {
+     background-color: rgba(239, 71, 111, 0.7);
+     left: 5px;
+     top: -100px;
+     margin-bottom: 20px;
+     transform: translateY(-20px);
+   }
+   
+   .balloonTwo {
+     background-color: rgba(6, 214, 160, 0.7);
+     left: 5px;
+     top: -60px;
+     margin-bottom: 20px;
+     transform: translateY(-20px);
+   }
+   
+   .balloonThree {
+     background-color: rgba(255, 209, 102, 0.7);
+     left: 5px;
+     top: 0;
+     margin-bottom: 2px;
+     transform: translateY(-20px);
+   }
+   
+   .balloonFour {
+     background-color: rgba(17, 138, 178, 0.7);
+     left: 5px;
+     top: 50px;
+     margin-bottom: 20px;
+     transform: translateY(-20px);
+   }
+   
+   /* Adjust balloon connector lines */
+   .balloonOne:before,
+   .balloonTwo:before,
+   .balloonThree:before,
+   .balloonFour:before {
+     content: "";
+     position: absolute;
+     width: 2px;
+     height: 40px; /* Decrease connector line height */
+     background-color: #ffd166;
+     top: 100%;
+     left: 50%;
+     transform: translateX(-50%);
+   }
+   
+   /* Adjust balloon triangle markers */
+   .balloonOne:after,
+   .balloonTwo:after,
+   .balloonThree:after,
+   .balloonFour:after {
+     content: "";
+     position: absolute;
+     border-right: 3.5px solid transparent;
+     border-left: 3.5px solid transparent;
+     top: 100%;
+     left: 42%;
+   }
+ 
+  .birthdayMessage {
+    font-size: 16px; /* Adjust font size for birthday message on smaller screens */
+  }
+
+  .imageContainerMiddle {
+    height: 30vh; /* Adjust image container height for smaller screens */
+  }
+}
