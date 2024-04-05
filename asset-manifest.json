@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Danielle-Birthday/static/css/main.3a29d1f8.css",
+    "main.js": "/Danielle-Birthday/static/js/main.244cfb7d.js",
+    "static/js/453.70c3bd37.chunk.js": "/Danielle-Birthday/static/js/453.70c3bd37.chunk.js",
+    "static/media/poppy.jpg": "/Danielle-Birthday/static/media/poppy.f2976517a895bbc3573f.jpg",
+    "static/media/slick.svg": "/Danielle-Birthday/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Danielle-Birthday/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Danielle-Birthday/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Danielle-Birthday/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Danielle-Birthday/index.html",
+    "main.3a29d1f8.css.map": "/Danielle-Birthday/static/css/main.3a29d1f8.css.map",
+    "main.244cfb7d.js.map": "/Danielle-Birthday/static/js/main.244cfb7d.js.map",
+    "453.70c3bd37.chunk.js.map": "/Danielle-Birthday/static/js/453.70c3bd37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a29d1f8.css",
+    "static/js/main.244cfb7d.js"
+  ]
+}
